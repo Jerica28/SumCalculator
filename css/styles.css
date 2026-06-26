@@ -1,0 +1,47 @@
+body{
+    background-color:bisque;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    align-text: center;
+    height: 100vh;
+}
+.container{
+    background-color: rgb(197, 239, 250);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+}.input-box{
+    margin-bottom: 15px;
+
+}
+ input[type="text"]{
+    width: calc(100%-22px);
+    border: 1px solid #555;
+    border-radius: 5px;
+    padding: 10px;
+ }
+ .btn{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+ }
+ button{
+    padding: 10px 10px;
+    border: none;
+    background-color: rgb(85, 166, 233);
+    color: aliceblue;
+    border-radius: 5px;
+    font-size: 16px;
+ }
+ button:hover{
+    color: rgb(3, 2, 22);
+    background-color: rgb(14, 132, 230);
+ }
+ label{
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+ }
